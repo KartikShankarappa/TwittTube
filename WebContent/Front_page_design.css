@@ -1,0 +1,174 @@
+@CHARSET "ISO-8859-1";
+#background
+{
+	background-color:#FF5050;
+}
+
+.wrapper
+{
+	width:1000px;
+	height:1000px;
+	background-color:#FFEEEE;	
+	/*border-radius: 30px 30px 30px 30px;*/ 
+	margin: 50px 50px 80px 160px; 
+}
+
+ .back
+{
+   background-image:url("images/square-background.jpg");
+	background-position:center;
+	background-attachment:fixed;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+* {
+	margin:0;
+	padding:5px;
+	border:0;
+}
+
+.heading
+	{
+	padding-top:20px;
+ 	font-weight: normal;
+    font-size: 50px;
+    font-variant: small-caps;
+    text-align:left;
+    text-indent:60px;
+    color:#932E2E;
+	}
+
+.tagline
+	{
+	font-style:italic;
+	font-weight: normal;
+    font-size: 30px;
+    text-align:left;
+    text-indent:50px;
+    color:#932E2E;
+	}	
+	
+#divLine
+	{
+	
+	background:#FF5050;
+	height: .02px; 
+	}
+	
+ul
+	{
+	
+	float:left;	
+	font-size: 20px;
+	list-style-type:none;
+	margin:10px 150px 200px 80px;
+	padding:0;
+	color:#932E2E;
+	}
+
+ul li
+	{
+	display:inline;
+	 /*border: 1px solid black;*/
+     height: 25px;
+     list-style-type: none;
+     width: 200px;
+	}
+	
+ul li a
+	{
+	text-decoration: underline;
+    padding: 2em 3em;
+	}
+
+.textbox
+	{
+	border:1px solid ;
+	} 
+
+button {
+  padding:5px;
+  background-color: #dcdcdc;
+  border: 1px solid ;
+  color:#932E2E;
+  text-decoration:none;
+}	
+
+/*old memories column and recent memory columns*/
+
+.recentVideos
+	{
+	height: 80px; 
+	width:992px;
+	background:#FF5050;
+	float:left;
+    color:black;
+    margin-top:-150px;
+	}	
+
+.recentVideos p 
+	{
+	
+	float:left;
+ 	font-weight: normal;
+    font-size: 40px;
+    font-variant: small-caps;
+    color:black;
+    margin-top:10px;
+    margin-left:130px;
+	}
+
+.oldVideos
+	{
+	height: 80px; 
+	width:992px;
+	background:#FF5050;
+	float:left;
+    color:black;
+    margin-top:230px;
+	}
+	
+.oldVideos p 
+	{
+	
+	float:left;
+ 	font-weight: normal;
+    font-size: 40px;
+    font-variant: small-caps;
+    color:black;
+    margin-top:10px;
+    margin-left:130px;
+	}	
+
+	
+
+.scroll
+	{
+	margin-top:20px;
+	float:left;
+	height:240px;
+	width:985px;
+	overflow:auto;	
+	}	
+
+
+/*Uploaad design begins*/
+
+.wrapper_upload
+{
+	background-color:#FFEEEE;	
+	/*border-radius: 30px 30px 30px 30px;*/ 
+	margin:auto; 
+}
+	
+.upload_text_design
+	{
+	padding-top:20px;
+ 	font-weight: normal;
+    font-size: 80px;
+    font-variant: small-caps;
+ 	font-weight: normal;
+    font-size: 20px;
+    color:black;
+	margin:auto;
+	}	
